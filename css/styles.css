@@ -769,6 +769,10 @@ OR
   height: 404px;
   background-color: var(--primary-bg-color);
 }
+.overlay-port {
+  position: relative;
+  overflow: hidden;
+}
 
 .padding-for-cards-port {
   padding-left: 24px;
@@ -793,9 +797,27 @@ OR
 .features-portfolio {
   display: flex;
 }
+.portfolio-text-for-cards {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
+  font-weight: 400;
 
-.portfolio-text-for-cards:hover {
-  background-color: var(--accent-text-color);
+  padding-top: 63px;
+  padding-left: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.text-cards-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text-cards-overlay:hover {
+  background-color: rgba(33, 150, 243, 0.9);
   color: var(--hero-text-color);
 }
 /*=========================PORTFOLIO============================*/
