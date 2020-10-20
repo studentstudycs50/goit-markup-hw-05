@@ -790,6 +790,11 @@ OR
   opacity: 1;
 }
 
+.text-cards-overlay:hover {
+  background-color: rgba(33, 150, 243, 0.9);
+  color: var(--hero-text-color);
+}
+
 .padding-for-cards-port {
   padding-left: 24px;
   padding-top: 20px;
