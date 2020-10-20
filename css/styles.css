@@ -199,7 +199,7 @@ ul {
   padding-bottom: 280px;
 }
 
-.overlay {
+.overlay-head {
   flex-grow: 1;
   max-width: 1600px;
   height: 600px;
@@ -768,10 +768,23 @@ OR
   width: 370px;
   height: 404px;
   background-color: var(--primary-bg-color);
+  overflow: hidden;
 }
-.overlay-port {
+.overlay {
   position: relative;
   overflow: hidden;
+}
+.text-cards-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.text-cards-overlay:hover {
+  background-color: rgba(33, 150, 243, 0.9);
+  color: var(--hero-text-color);
 }
 
 .padding-for-cards-port {
@@ -798,6 +811,7 @@ OR
   display: flex;
 }
 .portfolio-text-for-cards {
+  box-sizing: border-box;
   font-family: inherit;
   font-size: 18px;
   line-height: 1.56;
@@ -807,6 +821,10 @@ OR
   padding-left: 63px;
   padding-left: 24px;
   padding-right: 24px;
+}
+.overlay {
+  position: relative;
+  overflow: hidden;
 }
 .text-cards-overlay {
   position: absolute;
