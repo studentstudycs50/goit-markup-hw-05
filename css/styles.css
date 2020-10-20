@@ -45,20 +45,6 @@ ul {
   --bgc-icons-benefits: rgba(245, 244, 250, 1);
 }
 
-/* цвет основного текста color: #757575; */
-/* цвет вторичного текста color: #212121;*/
-
-/* цвет текста и шапки color: #FFFFFF;*/
-
-/* подвал названия тел. адрес color: rgba(255, 255, 255, 0.6);*/
-
-/* цвет фона 1 шапка background: #FFFFFF;*/
-/* цвет фона 2 подвал background: #2F303A; */
-/* цвет фона main 3 background: #E5E5E5;*/
-/* цвет фона 4 вторичный background: #F5F4FA; */
-
-/* LOGO  color: акцент #2196F3; +color: #212121; */
-
 /* top line */
 /*спросить: почему если убрать класс .nav, то text-decoration: none; не работает?*/
 .nav {
@@ -127,6 +113,7 @@ ul {
   line-height: 1.14;
   text-decoration: none;
   padding-top: 32px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*padding-bottom: 32px; пришлось удалить */
 
@@ -145,6 +132,7 @@ ul {
   background-color: var(--accent-text-color);
   margin: 0 auto;
   margin-top: 28px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation .link {
@@ -155,6 +143,7 @@ ul {
   line-height: 1.14;
   text-decoration: none;
   font-style: normal;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -171,6 +160,7 @@ ul {
   height: 12px;
   margin-right: 10px;
   fill: var(--primary-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-for-header-svg-t {
@@ -178,6 +168,7 @@ ul {
   height: 16px;
   margin-right: 10px;
   fill: var(--primary-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* задаем цвет при ховере*/
 
@@ -304,8 +295,7 @@ OR
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-
-  transition: all 250ms linear;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
@@ -355,6 +345,7 @@ OR
   border: 1px solid var(--bgc-icons-benefits);
   border-radius: 4px;
   margin-bottom: 30px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-benefits-four:hover {
   border: 2px solid var(--accent-text-color);
@@ -492,6 +483,8 @@ OR
   padding-right: 32px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ===================svg team===========*/
@@ -513,6 +506,7 @@ OR
   height: 44px;
   border-radius: 50%;
   background-color: var(--primary-bg-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-item-links:hover {
@@ -576,6 +570,8 @@ OR
   box-sizing: border-box;
   height: 90px;
   width: 170px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-clients-svg {
@@ -662,12 +658,13 @@ OR
   height: 44px;
   border-radius: 50%;
   background-color: var(--bgc-links-footer);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-footer .social-list-item + .social-list-item {
   margin-left: 10px;
 }
 
-.social-list-item-footer:hover svg {
+.social-list-item-footer-links:hover svg {
   fill: var(--hero-text-color);
 }
 .social-footer-link-instagram {
@@ -711,6 +708,8 @@ OR
   text-align: center;
   border-radius: 4px;
   padding: 6px 22px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button .but:hover,
 .button .but:focus {
@@ -769,6 +768,8 @@ OR
   height: 404px;
   background-color: var(--primary-bg-color);
   overflow: hidden;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay {
   position: relative;
