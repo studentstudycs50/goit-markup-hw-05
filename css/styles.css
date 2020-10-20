@@ -785,9 +785,9 @@ OR
   transform: translateY(100%);
 }
 
-.text-cards-overlay:hover {
-  background-color: rgba(33, 150, 243, 0.9);
-  color: var(--hero-text-color);
+.features-li:hover .text-cards-overlay {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .padding-for-cards-port {
